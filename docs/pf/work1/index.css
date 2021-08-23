@@ -1,3 +1,12 @@
+/* 폰트 */
+@font-face {
+  font-family: 'COCOGOOSE Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('COCOGOOSE Regular'), url('cocogoose_trial.woff') format('woff');
+}
+
+
 /* 노말라이즈 */
 body,
 ul,
@@ -23,3 +32,60 @@ img {
 }
 
 /* 커스텀 */
+/* home */
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo {
+  top: 45px;
+  left: 150px;
+}
+
+.menu-box-1 {
+  top: 57px;
+  right: 150px;
+  font-size: 25px;
+  font-family: 'COCOGOOSE Regular';
+}
+
+.menu-box-1>ul>li {
+  padding-left: 80px;
+}
+
+.svg-box {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.svg-1 {
+  transition: stroke-dashoffset 1s;
+}
+
+.svg-1:hover {
+  stroke-dashoffset: 0;
+}
+
+.active-line {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+}
+
+.active-line:active {
+  stroke-dashoffset: -1000;
+}
+
+.main-text {
+  font-family: 'COCOGOOSE Regular';
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 90px;
+  color: #A37CC9;
+  text-shadow: 2px 2px 2px #000;
+}
