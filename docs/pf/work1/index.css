@@ -6,6 +6,7 @@
   src: local('COCOGOOSE Regular'), url('cocogoose_trial.woff') format('woff');
 }
 
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 /* 노말라이즈 */
 body,
@@ -33,10 +34,10 @@ html {
 
 .section-item {
   position: absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .bg-img {
@@ -104,25 +105,90 @@ html {
 
 /* 자기소개 */
 .am-img-1 {
-  top:235px;
-  left:685px;
+  top: 185px;
+  left: 685px;
 }
 
 .am-img-2 {
-  top:404px;
-  left:320px;
+  top: 354px;
+  left: 320px;
 }
 
 .am-img-3 {
-  top:630px;
-  left:896px;
+  top: 580px;
+  left: 896px;
 }
 
 .am-img-4 {
-  top:362px;
-  left:1222px;
+  top: 312px;
+  left: 1222px;
 }
 
 /* 포트폴리오 */
+.pf-img-1 {
+  top: 772px;
+  left: 32px;
+}
 
-/* 연락처 */
+/* 연락 */
+.ct-img-1 {
+  top: 301px;
+  left: 320px;
+}
+
+.ct-img-2 {
+  top: 273px;
+  left: 1015px;
+}
+
+.ct-form-1 {
+  top: 377px;
+  left: 1121px;
+}
+
+.ct-form-2 {
+  top: 450px;
+  left: 1121px;
+}
+
+.ct-form-3 {
+  top: 801px;
+  left: 1310px;
+}
+
+input,
+textarea {
+  border: none;
+  background-color: inherit;
+  font-family: 'NotoKrL';
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+input {  
+  width: 460px;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea {
+  width: 470px;
+  height: 290px;
+  overflow: hidden;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  background-color: inherit;
+  font-family: 'COCOGOOSE Regular';
+  font-size: 25px;
+  color:#535050;
+}
