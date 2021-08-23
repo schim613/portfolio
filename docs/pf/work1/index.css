@@ -12,7 +12,14 @@ a {
   text-decoration: none;
 }
 
-/* 커스텀 */
-.wrap {
-  margin: 0 auto;
+html {
+  overflow-x: hidden;
 }
+
+/* 라이브러리 */
+img {
+  display: block;
+  width: 100%;
+}
+
+/* 커스텀 */
