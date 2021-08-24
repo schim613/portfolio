@@ -1,12 +1,13 @@
 /* 폰트 */
 @font-face {
-  font-family: 'COCOGOOSE Regular';
-  font-style: normal;
+  font-family: 'COCOGOOSE';
+  src:url('COCOGOOSE.ttf.woff') format('woff'),
+      url('COCOGOOSE.ttf.svg#COCOGOOSE') format('svg'),
+      url('COCOGOOSE.ttf.eot'),
+      url('COCOGOOSE.ttf.eot?#iefix') format('embedded-opentype'); 
   font-weight: normal;
-  src: local('COCOGOOSE Regular'), url('cocogoose_trial.woff') format('woff');
+  font-style: normal;
 }
-
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 /* 노말라이즈 */
 body,
@@ -44,6 +45,12 @@ html {
   z-index: -100;
 }
 
+.icon-up, .icon-down {
+  top:937px;
+  right:150px;
+  left:auto;
+}
+
 /* 커스텀 */
 /* 홈 */
 .top-bar {
@@ -63,7 +70,7 @@ html {
   top: 57px;
   right: 150px;
   font-size: 25px;
-  font-family: 'COCOGOOSE Regular';
+  font-family: 'COCOGOOSE';
 }
 
 .menu-box-1>ul>li {
@@ -94,7 +101,7 @@ html {
 }
 
 .main-text {
-  font-family: 'COCOGOOSE Regular';
+  font-family: 'COCOGOOSE';
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -105,29 +112,29 @@ html {
 
 /* 자기소개 */
 .am-img-1 {
-  top: 185px;
+  top: 160px;
   left: 685px;
 }
 
 .am-img-2 {
-  top: 354px;
+  top: 364px;
   left: 320px;
 }
 
 .am-img-3 {
   top: 580px;
-  left: 896px;
+  left: 870px;
 }
 
 .am-img-4 {
-  top: 312px;
-  left: 1222px;
+  top: 335px;
+  left: 1173px;
 }
 
 /* 포트폴리오 */
 .pf-img-1 {
-  top: 772px;
-  left: 32px;
+  top: 749px;
+  left: 50px;
 }
 
 /* 연락 */
@@ -139,6 +146,26 @@ html {
 .ct-img-2 {
   top: 273px;
   left: 1015px;
+}
+
+.ct-img-3-1 {
+  top: 365px;
+  left: 1586px;
+}
+
+.ct-img-3-2 {
+  top: 652px;
+  left: 1704px;
+}
+
+.ct-img-3-3 {
+  top: 810px;
+  left: 1550px;
+}
+
+.ct-img-3-4 {
+  top: 720px;
+  left: 980px;
 }
 
 .ct-form-1 {
@@ -188,7 +215,7 @@ button {
   border: 0;
   outline: 0;
   background-color: inherit;
-  font-family: 'COCOGOOSE Regular';
+  font-family: 'COCOGOOSE';
   font-size: 25px;
   color:#535050;
-}
+} 
