@@ -49,6 +49,7 @@ html {
   top:937px;
   right:150px;
   left:auto;
+  z-index:100;
 }
 
 /* 커스텀 */
@@ -112,23 +113,23 @@ html {
 
 /* 자기소개 */
 .am-img-1 {
-  top: 160px;
-  left: 685px;
+  top: 150px;
+  left: 600px;
 }
 
 .am-img-2 {
-  top: 364px;
+  top: 380px;
   left: 320px;
 }
 
 .am-img-3 {
-  top: 580px;
-  left: 870px;
+  top: 615px;
+  left: 900px;
 }
 
 .am-img-4 {
-  top: 335px;
-  left: 1173px;
+  top: 362px;
+  left: 1199px;
 }
 
 /* 포트폴리오 */
@@ -149,8 +150,8 @@ html {
 }
 
 .ct-img-3-1 {
-  top: 365px;
-  left: 1586px;
+  top: 380px;
+  left: 1585px;
 }
 
 .ct-img-3-2 {
@@ -159,13 +160,13 @@ html {
 }
 
 .ct-img-3-3 {
-  top: 810px;
-  left: 1550px;
+  top: 825px;
+  left: 1560px;
 }
 
 .ct-img-3-4 {
-  top: 720px;
-  left: 980px;
+  top: 700px;
+  left: 970px;
 }
 
 .ct-form-1 {
