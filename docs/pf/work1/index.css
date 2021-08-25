@@ -1,6 +1,6 @@
 /* 폰트 */
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
-                
+
 
 @font-face {
   font-family: 'GmarketSansMedium';
@@ -9,7 +9,7 @@
   font-style: normal;
 }
 
-html > body {
+html>body {
   font-family: 'GmarketSansMedium';
 }
 
@@ -28,12 +28,12 @@ a {
 }
 
 body {
-  min-width:1920px;
+  min-width: 1920px;
   background-image: url(https://schim613.github.io/portfolio/pf/work1/resource/background-img.jpg);
 }
 
 /* 라이브러리 */
-.img-box > img {
+.img-box>img {
   display: block;
   width: 100%;
 }
@@ -60,43 +60,43 @@ body {
 /* 탑바 */
 .top-bar {
   position: fixed;
-  width:100%;
+  width: 100%;
   top: 0;
   left: 0;
   z-index: 100;
-  padding:0 150px;
-  padding-top:40px;
+  padding: 0 150px;
+  padding-top: 40px;
 }
 
-.menu-1 > li {
+.menu-1>li {
   padding-left: 80px;
 }
 
-.menu-1 > li > a {
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  position:relative;
-  width:194px;
-  height:102px;
+.menu-1>li>a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 194px;
+  height: 102px;
   font-size: 25px;
   font-family: 'COCOGOOSE', sans-serif;
 }
 
-.menu-1 > li > a > svg {
-  position:absolute;
-  top:0;
-  left:0;
+.menu-1>li>a>svg {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-.menu-1 > li > a > svg path {
-  stroke-dasharray:949.1766967773438;
-  stroke-dashoffset:949.1766967773438;
+.menu-1>li>a>svg path {
+  stroke-dasharray: 949.1766967773438;
+  stroke-dashoffset: 949.1766967773438;
 }
 
-.menu-1:not(:hover) > li.active > a > svg path,
-.menu-1 > li:hover > a > svg path {
-  stroke-dashoffset:0;
+.menu-1:not(:hover)>li.active>a>svg path,
+.menu-1>li:hover>a>svg path {
+  stroke-dashoffset: 0;
   transition: stroke-dashoffset 1s;
 }
 
@@ -133,42 +133,32 @@ body {
 
 .ct-img-2 {
   top: 273px;
-  left: 1015px;
+  left: 1000px;
 }
 
-.ct-img-3-1 {
-  top: 380px;
-  left: 1585px;
-}
-
-.ct-img-3-2 {
-  top: 652px;
-  left: 1704px;
-}
-
-.ct-img-3-3 {
-  top: 825px;
+.ct-img-3{
+  top: 400px;
   left: 1560px;
 }
 
-.ct-img-3-4 {
+.ct-img-4 {
   top: 700px;
-  left: 970px;
+  left: 955px;
 }
 
 .ct-form-1 {
-  top: 377px;
-  left: 1121px;
+  top: 375px;
+  left: 1100px;
 }
 
 .ct-form-2 {
   top: 450px;
-  left: 1121px;
+  left: 1100px;
 }
 
 .ct-form-3 {
-  top: 768px;
-  left: 1097px;
+  top: 766px;
+  left: 1080px;
 }
 
 input,
