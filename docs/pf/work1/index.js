@@ -1,3 +1,8 @@
+// 이미지 로딩 기다리기
+$('body').imagesLoaded(function() {
+  SectionEffect__init();
+});
+
 // 풀페이지
 new fullpage('#fullpage', {
   menu: ".top-bar .menu-1"
