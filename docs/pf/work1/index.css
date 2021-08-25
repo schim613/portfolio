@@ -27,12 +27,13 @@ a {
   text-decoration: none;
 }
 
-html {
-  overflow-x: hidden;
+body {
+  min-width:1920px;
+  background-image: url(https://schim613.github.io/portfolio/pf/work1/resource/background-img.jpg);
 }
 
 /* 라이브러리 */
-.img-box {
+.img-box > img {
   display: block;
   width: 100%;
 }
