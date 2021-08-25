@@ -1,6 +1,6 @@
 // 풀페이지
 new fullpage('#fullpage', {
-  menu: ".top-bar .menu-box-1"
+  menu: ".top-bar .menu-1"
 });
 
 // 연락-이메일 폼

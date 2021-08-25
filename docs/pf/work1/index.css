@@ -1,12 +1,16 @@
 /* 폰트 */
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+                
+
 @font-face {
-  font-family: 'COCOGOOSE';
-  src:url('COCOGOOSE.ttf.woff') format('woff'),
-      url('COCOGOOSE.ttf.svg#COCOGOOSE') format('svg'),
-      url('COCOGOOSE.ttf.eot'),
-      url('COCOGOOSE.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+html > body {
+  font-family: 'GmarketSansMedium';
 }
 
 /* 노말라이즈 */
@@ -45,77 +49,74 @@ html {
   z-index: -100;
 }
 
-.icon-up, .icon-down {
+.icon-up,
+.icon-down {
   top: auto;
   bottom: 55px;
-  right:150px;
-  left:auto;
-  z-index:100;
-}
-
-/* 커스텀 */
-/* 홈 */
-.top-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  right: 150px;
+  left: auto;
   z-index: 100;
 }
 
-.logo {
-  top: 45px;
-  left: 150px;
+/* 커스텀 */
+/* 탑바 */
+.top-bar {
+  position: fixed;
+  width:100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding:0 150px;
+  padding-top:40px;
 }
 
-.menu-box-1 {
-  top: 57px;
-  right: 150px;
-  font-size: 25px;
-  font-family: 'COCOGOOSE';
-}
-
-.menu-box-1>ul>li {
+.menu-1 > li {
   padding-left: 80px;
 }
 
-.svg-box {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.menu-1 > li > a {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:relative;
+  width:194px;
+  height:102px;
+  font-size: 25px;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
-.svg-1 {
+.menu-1 > li > a > svg {
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.menu-1 > li > a > svg path {
+  stroke-dasharray:949.1766967773438;
+  stroke-dashoffset:949.1766967773438;
+}
+
+.menu-1:not(:hover) > li.active > a > svg path,
+.menu-1 > li:hover > a > svg path {
+  stroke-dashoffset:0;
   transition: stroke-dashoffset 1s;
 }
 
-.svg-1:hover {
-  stroke-dashoffset: 0;
-}
-
-.active-line {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-}
-
-.active-line:active {
-  stroke-dashoffset: -1000;
-}
-
+/* 홈 */
 .main-text {
-  font-family: 'COCOGOOSE';
+  font-family: 'COCOGOOSE', sans-serif;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 90px;
   color: #A37CC9;
-  text-shadow: 2px 2px 2px #000;
+  text-shadow: 2px 2px 4px #000;
 }
 
 /* 자기소개 */
 .am-img-1 {
-  top:50%;
-  left:50%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -168,8 +169,8 @@ html {
 }
 
 .ct-form-3 {
-  top: 801px;
-  left: 1310px;
+  top: 768px;
+  left: 1097px;
 }
 
 input,
@@ -181,7 +182,7 @@ textarea {
   font-weight: lighter;
 }
 
-input {  
+input {
   width: 460px;
 }
 
@@ -190,7 +191,7 @@ input:focus {
 }
 
 textarea {
-  width: 470px;
+  width: 460px;
   height: 290px;
   overflow: hidden;
   resize: none;
@@ -201,10 +202,12 @@ textarea:focus {
 }
 
 button {
+  width: 500px;
+  height: 105px;
   border: 0;
   outline: 0;
   background-color: inherit;
-  font-family: 'COCOGOOSE';
+  font-family: 'COCOGOOSE', sans-serif;
   font-size: 25px;
-  color:#535050;
-} 
+  color: #535050;
+}
