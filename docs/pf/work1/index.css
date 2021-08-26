@@ -2,19 +2,28 @@
 @font-face {
   font-family: "COCOGOOSE";
   src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot");
-  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg");
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE")
+      format("svg");
 }
 
-
 @font-face {
-  font-family: 'GmarketSansMedium';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
-html>body {
-  font-family: 'GmarketSansMedium';
+html > body {
+  font-family: "GmarketSansMedium";
 }
 
 /* 노말라이즈 */
@@ -37,7 +46,7 @@ body {
 }
 
 /* 라이브러리 */
-.img-box>img {
+.img-box > img {
   display: block;
   width: 100%;
 }
@@ -64,42 +73,42 @@ body {
 /* 탑바 */
 .top-bar {
   position: fixed;
+  z-index: 100;
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 100;
   padding: 0 150px;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
-.menu-1>li {
-  padding-left: 80px;
+.menu-1 > li {
+  padding-left: 20px;
 }
 
-.menu-1>li>a {
+.menu-1 > li > a {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 194px;
-  height: 102px;
-  font-size: 25px;
-  font-family: 'COCOGOOSE';
+  width: 190px;
+  height: 100px;
+  font-size: 20px;
+  font-family: "COCOGOOSE";
 }
 
-.menu-1>li>a>svg {
+.menu-1 > li > a > svg {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.menu-1>li>a>svg path {
+.menu-1 > li > a > svg path {
   stroke-dasharray: 949.1766967773438;
   stroke-dashoffset: 949.1766967773438;
 }
 
-.menu-1:not(:hover)>li.active>a>svg path,
-.menu-1>li:hover>a>svg path {
+.menu-1:not(:hover) > li.active > a > svg path,
+.menu-1 > li:hover > a > svg path {
   stroke-dashoffset: 0;
   transition: stroke-dashoffset 1s;
 }
