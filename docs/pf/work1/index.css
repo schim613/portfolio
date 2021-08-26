@@ -56,19 +56,6 @@ body {
   top: 0;
 }
 
-.bg-img {
-  z-index: -100;
-}
-
-.icon-up,
-.icon-down {
-  top: auto;
-  bottom: 55px;
-  right: 150px;
-  left: auto;
-  z-index: 100;
-}
-
 /* 커스텀 */
 /* 탑바 */
 .top-bar {
@@ -79,10 +66,6 @@ body {
   left: 0;
   padding: 0 150px;
   padding-top: 20px;
-}
-
-.menu-1 > li {
-  padding-left: 20px;
 }
 
 .menu-1 > li > a {
