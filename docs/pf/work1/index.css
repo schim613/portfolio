@@ -80,7 +80,7 @@ body {
   width: 194px;
   height: 102px;
   font-size: 25px;
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: 'COCOGOOSE';
 }
 
 .menu-1>li>a>svg {
@@ -102,7 +102,7 @@ body {
 
 /* 홈 */
 .main-text {
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: 'COCOGOOSE';
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -195,7 +195,7 @@ button {
   border: 0;
   outline: 0;
   background-color: inherit;
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: 'COCOGOOSE';
   font-size: 25px;
   color: #535050;
 }
