@@ -1,5 +1,9 @@
 /* 폰트 */
-@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot");
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg");
+}
 
 
 @font-face {
@@ -136,7 +140,7 @@ body {
   left: 1000px;
 }
 
-.ct-img-3{
+.ct-img-3 {
   top: 355px;
   left: 1560px;
 }
