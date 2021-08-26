@@ -52,6 +52,15 @@ body {
   top: 0;
 }
 
+.icon-up,
+.icon-down {
+  top: auto;
+  bottom: 55px;
+  right: 150px;
+  left: auto;
+  z-index: 100;
+}
+
 /* 커스텀 */
 /* 탑바 */
 .top-bar {
